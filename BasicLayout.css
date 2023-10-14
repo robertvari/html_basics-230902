@@ -10,6 +10,8 @@ body{
 
 .navbar a{
     color: white;
+    font-size: 23px;
+    margin-right: 20px;
 }
 
 a{
@@ -19,9 +21,21 @@ a{
 
 .footer{
     background-color: rgb(45, 45, 45);
-    color: white
+    color: white;
+    padding: 30px;
+    display: flex;
+}
+
+.footer p{
+    padding: 10px;
 }
 
 .content{
-    background-color: aqua;
+    display: flex;
+    padding:100px;
+}
+
+.side-panel{
+    min-width: 300px;
+    margin-left: 20px;
 }
